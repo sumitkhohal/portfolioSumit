@@ -1,0 +1,139 @@
+.experience{
+    width: 100%;
+    /* height: 100vh; */
+    height: fit-content;
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #1f2937 var(--tw-gradient-from-position);
+    --tw-gradient-from-position:  ;
+    --tw-gradient-to: rgb(31 41 55 / 0)  var(--tw-gradient-from-position);
+    --tw-gradient-to-position:  ;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #000 var(--tw-gradient-to-position);
+    --tw-gradient-to-position:
+}
+
+.experiencediv{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem/* 16px */;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+
+.experiencep{
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    font-weight: 700;
+    border-bottom-width: 4px;
+    --tw-border-opacity: 1;
+    border-color: rgb(107 114 128 / var(--tw-border-opacity));
+    padding: 0.5rem/* 8px */;
+    display: inline;
+
+}
+
+.experiencep2 {
+    padding-top: 1.5rem/* 24px */;
+    padding-bottom: 1.5rem/* 24px */;
+}
+
+.expcontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem/* 32px */;
+    text-align: center;
+    padding-top: 2rem/* 32px */;
+    padding-bottom: 2rem/* 32px */;
+    padding-left: 3rem/* 48px */;
+    padding-right: 3rem/* 48px */;
+
+}
+
+.expinner{
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    transition-duration: 500ms;
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    border-radius: 0.5rem/* 8px */;
+}
+
+.expinner img{
+    width: 5rem/* 80px */;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expinner p{
+    margin-top: 1rem/* 16px */;
+}
+
+.hmtl{
+    --tw-shadow-color: #f97316;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.scs{
+    --tw-shadow-color: #3b82f6;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.scriptjava{
+    --tw-shadow-color: #eab308;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.jsreact{
+    --tw-shadow-color: #2563eb;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.redux{
+    --tw-shadow-color: #c084fc;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.graphql{
+    --tw-shadow-color: #f472b6;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.github{
+    --tw-shadow-color: #9ca3af;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.python{
+    --tw-shadow-color: #facc15;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+.mongo{
+    --tw-shadow-color: #16a34a;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+
+
+.expinner:hover {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 640px) {
+    .expcontainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+

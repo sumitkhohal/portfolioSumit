@@ -1,0 +1,57 @@
+.about{
+    width: 100%;
+    /* height: 120vh; */
+    height: fit-content;
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #1f2937 var(--tw-gradient-from-position);
+    --tw-gradient-from-position:  ;
+    --tw-gradient-to: rgb(31 41 55 / 0)  var(--tw-gradient-from-position);
+    --tw-gradient-to-position:  ;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #000 var(--tw-gradient-to-position);
+    --tw-gradient-to-position:
+}
+
+
+.aboutdiv{
+    max-width: 1024px;
+    padding: 1rem/* 16px */;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutdiv p {
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    margin-top: 2.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.aboutdiv2{
+    padding-bottom: 2rem/* 32px */;
+}
+.aboutdiv2 p {
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    font-weight: 700;
+    display: inline;
+    border-bottom-width: 4px;
+    --tw-border-opacity: 1;
+    border-color: rgb(107 114 128 / var(--tw-border-opacity));
+
+}
+
+@media (min-width: 768px) {
+    .about {
+            display: grid;
+    /* height: auto; */
+    }
+    
+}
+

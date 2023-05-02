@@ -1,0 +1,113 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem/* 80px */;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    position: fixed;
+    z-index: 50;
+}
+
+.nav img{
+    width: 5.5rem/* 80px */;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5.5rem/* 80px */;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.nav img:hover{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+
+.navul{
+    display: none;
+}
+.navul li{
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-duration: 200ms;
+
+}
+
+.navul li:hover {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.navdiv{
+    cursor: pointer;
+    padding-right: 1rem/* 16px */;
+    z-index: 10;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+
+}
+
+.navul2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #000 var(--tw-gradient-from-position);
+    --tw-gradient-from-position:  ;
+    --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-from-position);
+    --tw-gradient-to-position:  ;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #1f2937 var(--tw-gradient-to-position);
+    --tw-gradient-to-position:  
+}
+
+.navul2 li{
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding-top: 1.5rem/* 24px */;
+    padding-bottom: 1.5rem/* 24px */;
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    transition-duration: 200ms;
+}
+.navul2 li:hover {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+
+
+@media (min-width: 768px) {
+    .navul {
+        display: flex;
+    }
+    .navdiv {
+        display: none;
+    }
+}
+
