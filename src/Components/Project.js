@@ -8,7 +8,7 @@ import React from "react";
 import project1 from "../assets/graphqlproject.png";
 import project2 from "../assets/priceprediction.png";
 import project3 from "../assets/imagerecog.png";
-import project4 from "../assets/graphqlproject.png";
+import project4 from "../assets/project4.png";
 
 import "./ProjectStyles.css";
 
@@ -16,27 +16,27 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: project4,
+      code: "https://github.com/sumitkhohal/portfolioSumit",
+      demo: "https://sumitkhohal.github.io/portfolioSumit/",
+    },
+    {
+      id: 2,
       src: project1,
       code: "https://github.com/sumitkhohal/graphqlreact",
       demo: "https://my-graphql-react-app.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       src: project2,
       code: "https://github.com/sumitkhohal/PREDICTION-PRICE-OF-BOOSTON-HOUSE",
       demo: "https://youtu.be/npDrU-o5SYA",
     },
     {
-      id: 3,
+      id: 4,
       src: project3,
       code: "https://github.com/sumitkhohal/AVES-AUTOMATIC-VEHICLE-ENTRY-SYSTEM-",
       // demo: "https://my-graphql-react-app.vercel.app/",
-    },
-    {
-      id: 4,
-      src: project4,
-      code: "https://github.com/sumitkhohal/graphqlreact",
-      demo: "https://my-graphql-react-app.vercel.app/",
     },
   ];
 
