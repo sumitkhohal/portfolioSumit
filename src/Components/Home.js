@@ -18,11 +18,11 @@ const Home = () => {
           {/* <center>
             <img className="demo-bg" src={HeroImage} alt="" />
           </center> */}
-          <h2>
+          <h4>
             Hello, I am Sumit,
             <br />
-            <span className="application"> An Application Developer</span>.
-          </h2>
+            <span className="application"> An Application Developer</span>
+          </h4>
           <p>
             I have more than 2 years of experience building and desgining
             software. Currently, I love to work on web application using
@@ -32,7 +32,7 @@ const Home = () => {
           <div>
             <Link to="portfolio" smooth duration={500} className="button">
               <span>
-                Portfolio
+                Project
                 {/* <MdOutlineKeyboardArrowRight size={25} /> */}
               </span>
             </Link>

@@ -12,26 +12,31 @@ const NavBar = () => {
       id: 1,
       link: "home",
       offset: -70,
+      offset2: -70,
     },
     {
       id: 2,
       link: "about",
-      offset: -70,
+      offset: -20,
+      offset2: -50,
     },
     {
       id: 3,
       link: "project",
-      offset: -220,
+      offset: -500,
+      offset2: -800,
     },
     {
       id: 4,
       link: "experience",
-      offset: -70,
+      offset: -20,
+      offset2: -50,
     },
     {
       id: 5,
       link: "contact",
-      offset: -70,
+      offset: -20,
+      offset2: -50,
     },
   ];
 
@@ -59,14 +64,14 @@ const NavBar = () => {
 
       {nav && (
         <ul className="navul2">
-          {links.map(({ id, link, offset }) => (
+          {links.map(({ id, link, offset2 }) => (
             <li key={id}>
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
                 duration={500}
-                offset={offset}
+                offset={offset2}
               >
                 {link}
               </Link>

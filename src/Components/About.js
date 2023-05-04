@@ -12,11 +12,10 @@ const About = () => {
         <p>
           Hi,
           <br />
-          My name is Sumit, and I am an Application Developer associate with a
-          passion for coding and problem-solving. With proficiency in multiple
-          programming languages and frameworks, I enjoy developing innovative
-          solutions to complex software issues using various tools and
-          techniques.
+          My name is Sumit, and I am an Application Developer with a passion for
+          coding and problem-solving. With proficiency in multiple programming
+          languages and frameworks, I enjoy developing innovative solutions to
+          complex software issues using various tools and techniques.
         </p>
 
         <p>

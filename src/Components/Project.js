@@ -45,7 +45,25 @@ const Portfolio = () => {
       <div className="portfoliodiv">
         <div className="portfoliodiv2">
           <p>Project</p>
-          <p>Check out some of my work right here</p>
+          <p>
+            Welcome to my portfolio! I'm excited to share some of the projects
+            I've been working on with you. Each project represents a unique
+            challenge that I approached with creativity, attention to detail,
+            and a focus on delivering the best possible outcome.
+          </p>
+          <p>
+            As you explore my projects, you'll see that I prioritize user
+            experience and usability, always striving to make interfaces that
+            are intuitive and easy to navigate. I believe that design should
+            serve a purpose beyond just looking good - it should help users
+            achieve their goals and make their lives easier.
+          </p>
+          <p>
+            So, take a look around and see what catches your eye. Each project
+            has a detailed case study outlining the goals, process, and results,
+            so you can get a deeper understanding of how I work and what I can
+            do. I hope you enjoy my work as much as I enjoyed creating it!
+          </p>
         </div>
 
         <div className="project">
